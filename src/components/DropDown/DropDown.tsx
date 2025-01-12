@@ -53,6 +53,7 @@ export const DropDown = () => {
                 className={`${fontFamily[font as keyof typeof fontFamily]['bold']} text-bs text-black3 
                 dark:text-white h-6 flex gap-4 items-center justify-between sm:text-bm sm:gap-4.5 outline-purple`}
                 onClick={toggleDropDown}
+                aria-label='Choose a font'
             >
                 <span>{font}</span>
                 <svg

@@ -20,6 +20,7 @@ export const ThemeToggle = () => {
                         'before:translate-x-[3px]': theme === ThemeType.light,
                         'before:translate-x-[23px]': theme === ThemeType.dark,
                     })}
+                aria-label='Switch theme'
                 onClick={toggleTheme}
             ></button>
             <svg
