@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .circle-default {
+    opacity: 0.25;
+  }
+  .triangle-default {
+    fill: #A445ED;
+  }
+  .circle-hover:hover .circle-default {
+    opacity: 1;
+  }
+  .circle-hover:hover .triangle-default {
+    fill: white;
+  }
+}
+
+@font-face {
+  font-family: 'Lora Regular';
+  src: url('./assets/fonts/lora/static/Lora-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lora Bold';
+  src: url('./assets/fonts/lora/static/Lora-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Lora Bold Italic';
+  src: url('./assets/fonts/lora/static/Lora-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Inter Regular';
+  src: url('./assets/fonts/inter/static/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inter Bold';
+  src: url('./assets/fonts/inter/static/Inter-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Inconsolata Regular';
+  src: url('./assets/fonts/inconsolata/static/Inconsolata-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inconsolata Bold';
+  src: url('./assets/fonts/inconsolata/static/Inconsolata-Bold.ttf');
+}
