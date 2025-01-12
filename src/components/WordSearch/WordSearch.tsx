@@ -87,7 +87,7 @@ export const WordSearch: FC<Props> = ({isInvalid, onEmptyField, onTyping}) => {
                 })}
             >
                 <label
-                    className={classNames('h-[50.5px] flex items-center bg-gray1 dark:bg-black2 py-3.5 sm:py-[21px] pl-6 rounded-2xl ' +
+                    className={classNames('h-[50.5px] sm:h-16 flex items-center bg-gray1 dark:bg-black2 py-3.5 sm:py-[21px] pl-6 rounded-2xl ' +
                         'border-[1px] border-solid cursor-pointer', {
                         'border-transparent': !isFocused && !isInvalid,
                         'border-purple': isFocused,
