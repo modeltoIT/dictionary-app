@@ -1,40 +1,46 @@
 export const exampleWord = {
-    "word": "keyboard",
-    "phonetic": "/ˈkiːbɔːd/",
-    "phonetics": [{"text": "/ˈkiːbɔːd/", "audio": ""}, {"text": "/ˈkiːbɔːd/", "audio": ""}, {
-        "text": "/ˈkibɔɹd/",
-        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/keyboard-us.mp3",
-        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1755168",
-        "license": {"name": "BY-SA 3.0", "url": "https://creativecommons.org/licenses/by-sa/3.0"}
-    }],
+    "word": "dictionary",
+    "phonetic": "/ˈdɪkʃəˌnɛɹi/",
+    "phonetics": [{"text": "/ˈdɪkʃəˌnɛɹi/", "audio": ""}, {
+        "text": "/ˈdɪkʃ(ə)n(ə)ɹi/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/dictionary-uk.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=503422"
+    }, {"text": "/ˈdɪkʃəˌnɛɹi/", "audio": ""}],
     "meanings": [{
         "partOfSpeech": "noun",
         "definitions": [{
-            "definition": "(etc.) A set of keys used to operate a typewriter, computer etc.",
+            "definition": "A reference work with a list of words from one or more languages, normally ordered alphabetically, explaining each word's meaning, and sometimes containing information on its etymology, pronunciation, usage, translations, and other data.",
+            "synonyms": ["wordbook"],
+            "antonyms": []
+        }, {
+            "definition": "(preceded by the) A synchronic dictionary of a standardised language held to only contain words that are properly part of the language.",
             "synonyms": [],
             "antonyms": []
         }, {
-            "definition": "A component of many instruments including the piano, organ, and harpsichord consisting of usually black and white keys that cause different tones to be produced when struck.",
+            "definition": "(by extension) Any work that has a list of material organized alphabetically; e.g., biographical dictionary, encyclopedic dictionary.",
             "synonyms": [],
             "antonyms": []
         }, {
-            "definition": "A device with keys of a musical keyboard, used to control electronic sound-producing devices which may be built into or separate from the keyboard device.",
+            "definition": "An associative array, a data structure where each value is referenced by a particular key, analogous to words and definitions in a physical dictionary.",
             "synonyms": [],
             "antonyms": []
         }],
-        "synonyms": ["electronic keyboard"],
+        "synonyms": ["wordbook"],
         "antonyms": []
     }, {
         "partOfSpeech": "verb",
         "definitions": [{
-            "definition": "To type on a computer keyboard.",
+            "definition": "To look up in a dictionary.",
             "synonyms": [],
-            "antonyms": [],
-            "example": "Keyboarding is the part of this job I hate the most."
-        }],
+            "antonyms": []
+        }, {
+            "definition": "To add to a dictionary.",
+            "synonyms": [],
+            "antonyms": []
+        }, {"definition": "To compile a dictionary.", "synonyms": [], "antonyms": []}],
         "synonyms": [],
         "antonyms": []
     }],
     "license": {"name": "CC BY-SA 3.0", "url": "https://creativecommons.org/licenses/by-sa/3.0"},
-    "sourceUrls": ["https://en.wiktionary.org/wiki/keyboard"]
+    "sourceUrls": ["https://en.wiktionary.org/wiki/dictionary"]
 }
